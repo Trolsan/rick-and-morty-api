@@ -1,0 +1,68 @@
+body {
+
+    background-color: darkgray;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #656c7a;
+    margin: 2%;
+    padding: 1%;
+}
+
+#containerCard {
+    flex: 3 1 0%;
+    position: relative;
+    padding: 0.75rem;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+h1 {
+    margin: 0px;
+    color: rgb(32, 35, 41);
+    border: none;
+    font-weight: 900;
+    z-index: 1;
+    font-size: 5.625rem;
+}
+
+h2 {
+    margin: 30px;
+}
+
+
+
+.content {
+    margin: 2%;
+    background-color: #202329;
+    border-radius: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image {
+    border-radius: 3%;
+    margin:  30px;
+}
+
+input {
+	height: 4rem;
+	border: none;
+	border-radius: 0.5rem;
+	padding: 0 1rem;
+	outline: var(--color-primary);
+	width: 70%;
+}
